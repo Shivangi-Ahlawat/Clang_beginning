@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h> //random number generation
 
-int generaterandomnumber(int n)
+int generaterandomnumber(int n)// random number generation
 {
      srand(time(NULL)); // srand takes seed as a input
      return rand() % n;
