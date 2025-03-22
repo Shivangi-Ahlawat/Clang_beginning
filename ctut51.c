@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h> //random number generation
 
-int gemeraterandomnumber(int n)
+int generaterandomnumber(int n)
 {
      srand(time(NULL)); // srand takes seed as a input
      return rand() % n;
@@ -69,7 +69,7 @@ int main()
           }
 
           printf("Computer's turn:\n");
-          temp = gemeraterandomnumber(3);
+          temp = generaterandomnumber(3);
           comchar = dict[temp];
           printf("Computer chooses %c\n", comchar);
 
